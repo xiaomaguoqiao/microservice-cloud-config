@@ -3,7 +3,7 @@ spring:
      active: dev
 ---
 server:
-  port: 8003
+  port: 8001
 mybatis:
   config:location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.mengxuegu.springcloud.entities
